@@ -17,10 +17,10 @@ body{
 
 }
 
-.nav-section{
+.top-section{
     background-color: #1F2937;
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 500px;
 }
 
 nav ul{
@@ -39,12 +39,55 @@ nav ul a{
     text-decoration: none;
 }
 
+.hero-right,
+.hero-left{
+    max-width: 500px;
+}
+
+.hero-main,
 .logo{
-    font-weight: bold;
     color: #F9FAF8;
 }
 
+.hero-secondary,
 .right-links a{
+    font-size: 18px;
     font-weight: 300;
     color: #E5E7EB;
 }
+
+.btn{
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 200px;
+}
+
+.hero-main{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero-secondary{
+    margin: 20px 0px;
+}
+
+.hero-img{
+    max-width: 100%;
+}
+
+
