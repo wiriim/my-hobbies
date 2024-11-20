@@ -221,3 +221,10 @@ nav ul a{
     justify-content: center;
     align-items: center;
 }
+
+.top-section,
+.content-section,
+.quote-section,
+.action-section{
+    flex-grow: 1;
+}
