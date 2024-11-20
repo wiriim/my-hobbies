@@ -179,3 +179,36 @@ nav ul a{
     font-weight: bold;
     color: #1F2937;
 }
+
+.action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 500px;
+}
+
+.action-section .action-wrapper{
+    border-radius: 8px;
+    padding: 32px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 1200px;
+    min-height: 150px;
+    gap: 84px;
+}
+
+.btn-action{
+    border: 2px solid white;
+}
+
+.action-wrapper .action-title{
+    font-weight: bold;
+}
+
+.action-wrapper .action-body{
+    font-weight: 300;
+    margin-top: 12px;
+}
