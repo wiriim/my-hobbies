@@ -17,6 +17,7 @@ body{
 
 }
 
+.bottom-section,
 .top-section{
     background-color: #1F2937;
     flex-grow: 1;
@@ -211,4 +212,12 @@ nav ul a{
 .action-wrapper .action-body{
     font-weight: 300;
     margin-top: 12px;
+}
+
+.bottom-section{
+    display: flex;
+    color: white;
+    flex-basis: 100px;
+    justify-content: center;
+    align-items: center;
 }
