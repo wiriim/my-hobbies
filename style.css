@@ -81,7 +81,8 @@ nav ul a{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    gap: 200px;
+    column-gap: 200px;
+    flex-wrap: wrap-reverse;
 }
 
 .hero-main{
